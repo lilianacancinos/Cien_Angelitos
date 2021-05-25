@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    justify-content:center;
+}
+    
+body{
+    background-size:cover;
+    background-image:url(../images/fondo6.png);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: cadetblue;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 33px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+table, th, td{
+    border:2px solid rgb(175, 72, 72);
+    border-collapse: collapse;
+    background-image: linear-gradient(rgba(146, 89, 140, 0.349),  rgba(87, 130, 158, 0.432));
+    margin:auto;
+    width: 25%;
+}
+th, td{
+    padding: 10px;
+}
+th{ 
+    color: rgb(51, 51, 168);
+}
+
+button{
+    background-color: rgba(43, 121, 151, 0.37);
+    width: 90px;
+    height: 90px;
+}
+
+ul li{
+    list-style: none;
+}
+

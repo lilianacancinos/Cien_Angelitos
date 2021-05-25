@@ -1,0 +1,45 @@
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    color: cadetblue;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.insta{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 80px;
+    grid-gap:10px;
+}
+.insta iframe{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin: auto;
+}
+.wpp{
+    font-size: 50px;
+    margin-left: 95%;
+    margin-top: 30%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer__icono--tamanio{
+    @extend .footer;
+    font-size: 35px;
+    padding-top: 20px ;
+    color: rgba(13, 107, 107, 0.596);
+    a{
+        margin-left: 10px;
+    }
+}
+
+
+.footer__icono--tamanio a :hover{
+    transform:rotate(360deg) scale(2, 2);
+    transition: 2s;
+}

@@ -1,0 +1,22 @@
+
+$largo: 400px;
+$espacio: 20px;
+$titulos:rgb(43, 120, 151);
+
+.centrar-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagenesTienda{
+    height: $largo;
+}
+.espacios{
+    margin: $espacio;
+    h5{
+        display: flex;
+        justify-content: center;
+        color: $titulos ;
+    }
+}
