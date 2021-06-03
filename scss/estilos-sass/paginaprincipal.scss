@@ -1,6 +1,4 @@
-.header{
-    color: red;
-}
+
 
 .header__titulo--borde{
     border: solid blue;
@@ -9,4 +7,18 @@
 .header__parrafo--tamanio{
     font-size: 50px;
 }
-
+.cartel{
+    background-color: rgba(114, 142, 165, 0.753);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    p{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items: center;
+    }
+    p svg{
+        margin-right: 5px;
+    }
+}
