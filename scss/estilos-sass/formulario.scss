@@ -1,16 +1,10 @@
-.form{
+
+.nuevo-form{
+    background-color: rgba(128, 128, 128, 0.233);
+    margin-bottom: 100px;
+    margin-top: 80px;
+    padding: 1px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    height: 200px;
-    font-family: sans-serif
-}
-.input{
-    width: 150px;height: 20px;
-    transition: all 2s;
-}
-.input:focus{
-    width: 200px; height: 30px;
 }

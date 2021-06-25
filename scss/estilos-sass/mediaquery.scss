@@ -4,3 +4,17 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 1420px){
+    .container-section{
+        flex-wrap: wrap;
+    }
+
+    .column1{
+        max-width: 100%;
+    }
+    .column2, .column3{
+        margin-top: 40px;
+    }
+
+}
