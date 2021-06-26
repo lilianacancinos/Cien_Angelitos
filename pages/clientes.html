@@ -65,122 +65,44 @@
         </nav>
     </section>
     <!--formulario-->
-   <!-- <main>
-        <h3>¿Queres recibir nuestras promos?</h3>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="box ">
-                        <h1 class="title title-line">Nuevo usuario</h1>
-                        <p>COMPLETE EL FORMULARIO PARA OBTENER UNA CUENTA</p>
-
-                        <form class="form" action="#" method="get" enctype="application/x-www-form-urlencoded">
-                            <section>
-                                <label for="nombre">Nombre y Apellido</label>
-                                <input class="input" type="text" name="Nombre y Apellido">
-                            </section>
-                            <section>
-                                <label for="correo"> Correo electronico</label>
-                                <input class="input" type="email" placeholder=" Entrada de correo" value="" required>
-                            </section>
-                            <section>
-                                <label for="celular">Numero Celular</label>
-                                <input class="input" type="tel" placeholder="sin 0 ni 15" value="" required>
-                            </section>
-                            <section>
-                                <input type="radio" name="preferencias" value="niños "> <label for="niños ">niños </label>
-                                <input type="radio" name="preferencias" value=" adolescentes"> <label for="adolescentes">adolescentes </label>
-                                <input type="radio" name="preferencias" value="todos"><label for="todos">todos </label>
-                            </section>
-                            <section>
-                                <input type="checkbox" id="wpp"><label for="wpp">wpp </label>
-                                <input type="checkbox"  id="email"><label for="email">email</label>
-                                <select class="input">
-                                    <option>cordoba</option>
-                                    <option>resto de argentina</option>
-                                </select>
-                            </section>
-                            <section>
-                                <label for="mensaje">Dejanos tu consulta</label>
-                                <textarea class="input" name="mensaje"></textarea>
-                            </section>
-                            <section>
-                                <input type="submit" value="enviar">
-                                <input type="reset" value=" borrar">
-                            </section>
-                            <div class="form-group">
-                                <div class="checkbox">
-                                    <label class="label">
-                                        <input type="checkbox" name="club_adv" value="1" data-toggle="collapse" data-target="#dniFormGroup" aria-expanded="false" aria-controls="dniFormGroup"> Suscribirse a Club ADV <strong>(Suscripción Gratuita)</strong>
-                                    </label>
-                                </div>
-                            </div>
-                            <div id="dniFormGroup" class="form-group collapse">
-                                <input type="text" name="dni" class="form-control" placeholder="DNI" data-required-error="Campo Obligatorio">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" name="submit" class="btn btn-primary btn-block disabled">Crear cuenta</button>
-                            </div>
-                            <div class="form-group">
-                                <div class="back"><a href="../index.html" data-toggle="tooltip" data-placement="top" data-title="Volver a la pantalla de inicio de sesión" data-original-title="" title="">Volver</a></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>-->
+    
     <main>
         <h3>¿Queres recibir nuestras promos?</h3>
-        <div class="container col-6 nuevo-form">
+        <div class="container-fluid col-md-6 nuevo-form">
             <form>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" id="inputEmail4">
                     </div>
                     <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" class="form-control" id="inputPassword4">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="inputAddress">
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
+                        <label for="inputCity">Ciudad</label>
                         <input type="text" class="form-control" id="inputCity">
                     </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                    </div>
-                    <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
+                    <div class="form-group col-md-6">
+                        <label for="mensaje">Dejanos tu consulta</label>
+                        <textarea class="form-control" name="mensaje"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
                         <label class="form-check-label" for="gridCheck">
-                            Check me out
+                            Deseo recibir notificaciones de descuentos.
                         </label>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary boton col-md-6">Crear Cuenta</button>
             </form>
         </div>
     </main>
